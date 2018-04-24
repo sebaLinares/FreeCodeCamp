@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(200, 200, 200);
+}
+
+#main {
+  background-color: rgb(220, 220, 220);
+  margin: 0 25% 0 25%;
+  padding: 15px;
+}
+
+#polaroid-effect {
+  border-radius: 5px;
+  background-color: rgb(245, 245, 245);
+  padding: 17px 29px 30px 29px;
+
+}
+#title0 {
+  color: rgb(0, 100, 150);
+  padding-bottom: 30px;
+}
+
+#title1 {
+  text
+  padding: 20px 0 0px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+#img0 {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 3px 3px #aaaaaa;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
