@@ -1,40 +1,93 @@
-body {
-  background-color: rgb(200, 200, 200);
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box
 }
 
-#main {
-  background-color: rgb(220, 220, 220);
-  margin: 0 25% 0 25%;
-  padding: 15px;
+html, body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  color: white;
 }
 
-#polaroid-effect {
-  border-radius: 5px;
-  background-color: rgb(245, 245, 245);
-  padding: 17px 29px 30px 29px;
-
-}
-#title0 {
-  color: rgb(0, 100, 150);
-  padding-bottom: 30px;
+.main-title {
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
 }
 
-#title1 {
-  text
-  padding: 20px 0 0px;
-  margin-top: 10px;
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #C0B283;
+}
+
+.part {
+   width: 60%;
+   margin: 0px auto;
+   padding: 10px;
+   font-size: 2.4em;
+   background-color: #878787;
+}
+
+.part-1 {
+  /* background: #FFBD00; */
+}
+
+.part-2 {
+  /* background: lightgreen; */
+
+}
+
+.part-3 {
+  /* background: #dba36a; */
+
+}
+
+.part-4 {
+  /* background: #65afff; */
+
+}
+
+.img0 {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.img0-explanation {
+  font-size: 50%;
   font-style: italic;
+  margin-bottom: 40px;
 }
 
-#img0 {
-  max-height: 100%;
-  max-width: 100%;
-  border-radius: 5px;
-  box-shadow: 3px 3px #aaaaaa;
+.title {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
 }
 
-.grid-container {
+.list-container {
+  padding: 0 10px;
+}
+
+.list-item {
+  font-size: 15px;
+}
+
+.image-gallery {
   display: grid;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 0px;
+}
+
+.img {
+  width: auto;
+  height: 100px;
+}
+
+.quote {
+  padding: 20px;
+  font-size: 50%;
 }
