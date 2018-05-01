@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="352px" height="275px" viewBox="0 0 352 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>more-icon 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="more-icon" fill="#05386B" fill-rule="nonzero">
+            <g id="Layer_copy">
+                <g id="Group" transform="translate(0.000000, 259.000000)">
+                    <path d="M344,16 L91,16 C86.582,16 83,12.418 83,8 C83,3.582 86.582,0 91,0 L344,0 C348.418,0 352,3.582 352,8 C352,12.418 348.418,16 344,16 Z" id="Shape"></path>
+                    <path d="M39,16 L8,16 C3.582,16 0,12.418 0,8 C0,3.582 3.582,0 8,0 L39,0 C43.418,0 47,3.582 47,8 C47,12.418 43.418,16 39,16 Z" id="Shape"></path>
+                </g>
+                <g id="Group" transform="translate(0.000000, 130.000000)">
+                    <path d="M344,16 L91,16 C86.582,16 83,12.418 83,8 C83,3.582 86.582,0 91,0 L344,0 C348.418,0 352,3.582 352,8 C352,12.418 348.418,16 344,16 Z" id="Shape"></path>
+                    <path d="M39,16 L8,16 C3.582,16 0,12.418 0,8 C0,3.582 3.582,0 8,0 L39,0 C43.418,0 47,3.582 47,8 C47,12.418 43.418,16 39,16 Z" id="Shape"></path>
+                </g>
+                <g id="Group">
+                    <path d="M344,16 L91,16 C86.582,16 83,12.418 83,8 C83,3.582 86.582,0 91,0 L344,0 C348.418,0 352,3.582 352,8 C352,12.418 348.418,16 344,16 Z" id="Shape"></path>
+                    <path d="M39,16 L8,16 C3.582,16 0,12.418 0,8 C0,3.582 3.582,0 8,0 L39,0 C43.418,0 47,3.582 47,8 C47,12.418 43.418,16 39,16 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
