@@ -4,24 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>dropdowns</title>
+  <title>Portfolio - FCC</title>
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <div class="container container-1">
+  <div id="home" class="container container-1">
     <img class="home_bg" src="img/home_bg.png" alt="">
     <div class="dropdown">
       <img src="img/more-icon.svg" class="more-icon" alt="">
       <div class="dropdown-content">
-        <a href="#">About me</a>
-        <a href="#">My work</a>
-        <a href="#">Contact me</a>
+        <a href="#about-me">About me</a>
+        <a href="#my-work">My work</a>
+        <a href="#contact-me">Contact me</a>
       </div>
     </div>
     <h1 class="home-title">sebastian linares</h1>
   </div>
-  <div class="container container-2">
-    <h1>hola</h1>
+  <div id="about-me" class="container container-2">
+    <div class="profile-pic_box">
+      <img class="profile-pic" src="img/profile-pic.jpeg" alt="">
+    </div>
+    <div class="about-me_box">
+      <div class="about-me_all">
+        <h3 class="about-me_title">About me</h3>
+        <p class="about-me_par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatibus facilis, distinctio repellat commodi eaque numquam architecto qui enim. Repellendus provident sequi consectetur tempore harum pariatur voluptatem recusandae, sunt dolores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, eveniet dolore atque, quod a possimus quae sint in tenetur eius, iure fuga eum alias minus saepe numquam similique eos libero.</p>
+      </div>
+    </div>
+  </div>
+  <div id="my-work" class="container container-3">
+    <img class="container-3_bg" src="img/my-work_bg.jpg" alt="">
+    <div class="my-work-1">
+      <img src="img/work-1.png" alt="" class="">
+      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore iure, commodi exercitationem vel cupiditate facilis sapiente optio non obcaecati officiis doloribus voluptates eveniet, quidem assumenda ratione dolor, sunt vero corporis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere numquam ratione nostrum nesciunt, quod natus temporibus officiis voluptate quaerat reiciendis debitis in, minus consequuntur, perspiciatis sed voluptas. Vitae sed, animi.</p>
+    </div>
+    <div class="my-work-2">
+      <img src="img/work-2.png" alt="" class="">
+      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis cumque officia vel fugiat a tempora facilis dolorem enim neque quae nostrum dolore nihil id dolorum at, corporis, sunt adipisci, in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus pariatur, eveniet omnis adipisci doloribus officia ex reprehenderit beatae maxime in obcaecati animi unde repellendus atque quas, accusantium earum error, aspernatur!</p>
+    </div>
+  </div>
+  <div id="contact-me" class="container container-4">
+    <form class="form" action="" method="">
+      <div class="box-left">
+        <h3 class="form-title">Want to contact me?</h3>
+        <label for="name">Name</label>
+        <input class="name" type="text" id="name">
+        <label class="form-email" for="email">Email</label>
+        <input class="email" id="email" type="text">
+      </div>
+      <div class="box-right">
+        <label class="subject" for="subject">Subject</label>
+        <input class="form-subject"type="text">
+        <label class="textarea" for="textarea">Message</label>
+        <textarea name="textarea" rows="5" cols="80" placeholder="write something"></textarea>
+        <button class="submit-btn" type="submit" name="button">Enviar!</button>
+      </div>
+
+    </form>
+  </div>
+  <div class="container container-5">
+    <ul>
+      <li><a href="#"><img src="img/facebook-icon.svg" alt=""></a></li>
+      <li><a href="#"><img src="img/instagram-icon.svg" alt=""></a></li>
+      <li><a href="#"><img src="img/twitter-icon.svg" alt=""></a></li>
+      <li><a href="#"><img src="img/youtube-icon.svg" alt=""></a></li>
+    </ul>
   </div>
 </body>
 </html>
